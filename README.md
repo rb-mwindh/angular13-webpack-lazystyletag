@@ -4,8 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This project was upgraded to [Angular](https://github.com/angular/angular/blob/13.3.11/README.md) version 13.3.11.
 
-![node](https://img.shields.io/badge/node-%5E14.20.1-brightgreen)
-![npm](https://img.shields.io/badge/npm-%5E6.14.17-blue)
+![node](https://img.shields.io/badge/node-%5E16.14.0-brightgreen)
+![npm](https://img.shields.io/badge/npm-%5E8.3.1-blue)
 
 This project is meant to reproduce an issue with lazy-loaded stylesheets in an Angular app.
 
