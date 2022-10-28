@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import test from '../test.theme.scss';
+
 @Component({
   selector: 'app-root',
   template: `
@@ -9,4 +11,7 @@ import { Component } from '@angular/core';
   styles: []
 })
 export class AppComponent {
+  constructor() {
+    test.use();
+  }
 }
