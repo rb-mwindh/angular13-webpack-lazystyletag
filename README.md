@@ -1,6 +1,8 @@
 # Angular Webpack lazyStyleTag issue
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.18.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli/blob/12.2.18/README.md) version 12.2.18.
+
+This project was upgraded to [Angular](https://github.com/angular/angular/blob/13.3.11/README.md) version 13.3.11.
 
 ![node](https://img.shields.io/badge/node-%5E14.20.1-brightgreen)
 ![npm](https://img.shields.io/badge/npm-%5E6.14.17-blue)
