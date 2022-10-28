@@ -1,0 +1,17 @@
+@font-face {
+  font-family: IconFont;
+  src: url("~material-icons/iconfont/material-icons.woff2") format("woff2"),
+       url("~material-icons/iconfont/material-icons.woff") format("woff");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+.my-material-icons {
+  font-family: IconFont;
+  font-size: 1.5rem;
+}
+
+.red {
+  color: red;
+}
