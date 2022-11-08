@@ -13,11 +13,16 @@ module.exports = (config, options, targetOptions) => {
     test: themeRegex,
     use: [
       { loader: 'style-loader', options: { injectType: 'lazyStyleTag' } },
-      'css-loader',
+      { loader: 'css-loader', options: { esModule: false }},
       'sass-loader',
     ],
   };
   config.module.rules.push(themeRule);
+
+  config.module.rules.push({
+    test: /\.(?:woff2?|eot|ttf)$/i,
+    type: "asset/resource"
+  });
 
   // return the modified webpack config object
   return config;
