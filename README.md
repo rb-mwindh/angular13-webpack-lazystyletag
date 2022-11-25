@@ -109,3 +109,4 @@ GET http://localhost:4200/~material-icons/iconfont/material-icons.woff net::ERR_
 
 - [Stackoverflow Question](https://stackoverflow.com/questions/74234161/webpack-lazystyletag-configuration-wont-copy-fonts-after-upgrade-to-angular-1)
 - [Github Issue](https://github.com/webpack-contrib/style-loader/issues/584)
+- [Webpack Config GIST](https://gist.github.com/rb-mwindh/65f83437bd5c66812cb8c0b5ef670495#file-custom-webpack-config-json)
