@@ -104,3 +104,8 @@ I get the following error in the browser console:
 ```
 GET http://localhost:4200/~material-icons/iconfont/material-icons.woff net::ERR_ABORTED 404 (Not Found)
 ```
+
+## Further resources
+
+- [Stackoverflow Question](https://stackoverflow.com/questions/74234161/webpack-lazystyletag-configuration-wont-copy-fonts-after-upgrade-to-angular-1)
+- [Github Issue](https://github.com/webpack-contrib/style-loader/issues/584)
